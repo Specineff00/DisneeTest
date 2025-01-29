@@ -12,9 +12,3 @@ private enum DisneesAPIKey: DependencyKey {
   static let liveValue: any DisneesAPI = LiveDisneesAPI()
   static let testValue: any DisneesAPI = MockDisneesAPI { [.mock] }
 }
-
-
-// TODO:
-// Swipeable view lib
-// Unit testing
-// Error handling for loading

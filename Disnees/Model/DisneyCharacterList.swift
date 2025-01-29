@@ -9,8 +9,3 @@ extension DisneyCharactersList: Decodable {
     case disneyCharacters = "data"
   }
 }
-
-struct DisneyCharacterListRequest: Request {
-  typealias ReturnType = DisneyCharactersList
-  let path = "/character"
-}
