@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78BB19D2D49029800D2A997 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B78BB19C2D49029800D2A997 /* ComposableArchitecture */; };
+		B78BB1AB2D490C6D00D2A997 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B78BB1AA2D490C6D00D2A997 /* Alamofire */; };
+		B78BB1B82D49346E00D2A997 /* CardStack in Frameworks */ = {isa = PBXBuildFile; productRef = B78BB1B72D49346E00D2A997 /* CardStack */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78BB17F2D49026F00D2A997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78BB1662D49026E00D2A997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78BB16D2D49026E00D2A997;
+			remoteInfo = Disnees;
+		};
+		B78BB1892D49026F00D2A997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78BB1662D49026E00D2A997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78BB16D2D49026E00D2A997;
+			remoteInfo = Disnees;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78BB16E2D49026E00D2A997 /* Disnees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Disnees.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78BB17E2D49026F00D2A997 /* DisneesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78BB1882D49026F00D2A997 /* DisneesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B78BB1702D49026E00D2A997 /* Disnees */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Disnees;
+			sourceTree = "<group>";
+		};
+		B78BB1812D49026F00D2A997 /* DisneesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisneesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78BB16B2D49026E00D2A997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78BB19D2D49029800D2A997 /* ComposableArchitecture in Frameworks */,
+				B78BB1AB2D490C6D00D2A997 /* Alamofire in Frameworks */,
+				B78BB1B82D49346E00D2A997 /* CardStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB17B2D49026F00D2A997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB1852D49026F00D2A997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78BB1652D49026E00D2A997 = {
+			isa = PBXGroup;
+			children = (
+				B78BB1702D49026E00D2A997 /* Disnees */,
+				B78BB1812D49026F00D2A997 /* DisneesTests */,
+				B78BB16F2D49026E00D2A997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78BB16F2D49026E00D2A997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78BB16E2D49026E00D2A997 /* Disnees.app */,
+				B78BB17E2D49026F00D2A997 /* DisneesTests.xctest */,
+				B78BB1882D49026F00D2A997 /* DisneesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78BB16D2D49026E00D2A997 /* Disnees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78BB1922D49026F00D2A997 /* Build configuration list for PBXNativeTarget "Disnees" */;
+			buildPhases = (
+				B78BB16A2D49026E00D2A997 /* Sources */,
+				B78BB16B2D49026E00D2A997 /* Frameworks */,
+				B78BB16C2D49026E00D2A997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B78BB1702D49026E00D2A997 /* Disnees */,
+			);
+			name = Disnees;
+			packageProductDependencies = (
+				B78BB19C2D49029800D2A997 /* ComposableArchitecture */,
+				B78BB1AA2D490C6D00D2A997 /* Alamofire */,
+				B78BB1B72D49346E00D2A997 /* CardStack */,
+			);
+			productName = Disnees;
+			productReference = B78BB16E2D49026E00D2A997 /* Disnees.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78BB17D2D49026F00D2A997 /* DisneesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78BB1952D49026F00D2A997 /* Build configuration list for PBXNativeTarget "DisneesTests" */;
+			buildPhases = (
+				B78BB17A2D49026F00D2A997 /* Sources */,
+				B78BB17B2D49026F00D2A997 /* Frameworks */,
+				B78BB17C2D49026F00D2A997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78BB1802D49026F00D2A997 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B78BB1812D49026F00D2A997 /* DisneesTests */,
+			);
+			name = DisneesTests;
+			packageProductDependencies = (
+			);
+			productName = DisneesTests;
+			productReference = B78BB17E2D49026F00D2A997 /* DisneesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78BB1872D49026F00D2A997 /* DisneesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78BB1982D49026F00D2A997 /* Build configuration list for PBXNativeTarget "DisneesUITests" */;
+			buildPhases = (
+				B78BB1842D49026F00D2A997 /* Sources */,
+				B78BB1852D49026F00D2A997 /* Frameworks */,
+				B78BB1862D49026F00D2A997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78BB18A2D49026F00D2A997 /* PBXTargetDependency */,
+			);
+			name = DisneesUITests;
+			packageProductDependencies = (
+			);
+			productName = DisneesUITests;
+			productReference = B78BB1882D49026F00D2A997 /* DisneesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78BB1662D49026E00D2A997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B78BB16D2D49026E00D2A997 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B78BB17D2D49026F00D2A997 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B78BB16D2D49026E00D2A997;
+					};
+					B78BB1872D49026F00D2A997 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B78BB16D2D49026E00D2A997;
+					};
+				};
+			};
+			buildConfigurationList = B78BB1692D49026E00D2A997 /* Build configuration list for PBXProject "Disnees" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78BB1652D49026E00D2A997;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B78BB19B2D49029800D2A997 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B78BB1A92D490C6D00D2A997 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B78BB1B62D49346E00D2A997 /* XCRemoteSwiftPackageReference "SwiftUI-CardStackView" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B78BB16F2D49026E00D2A997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78BB16D2D49026E00D2A997 /* Disnees */,
+				B78BB17D2D49026F00D2A997 /* DisneesTests */,
+				B78BB1872D49026F00D2A997 /* DisneesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78BB16C2D49026E00D2A997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB17C2D49026F00D2A997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB1862D49026F00D2A997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78BB16A2D49026E00D2A997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB17A2D49026F00D2A997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BB1842D49026F00D2A997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78BB1802D49026F00D2A997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78BB16D2D49026E00D2A997 /* Disnees */;
+			targetProxy = B78BB17F2D49026F00D2A997 /* PBXContainerItemProxy */;
+		};
+		B78BB18A2D49026F00D2A997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78BB16D2D49026E00D2A997 /* Disnees */;
+			targetProxy = B78BB1892D49026F00D2A997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B78BB1902D49026F00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B78BB1912D49026F00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78BB1932D49026F00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disnees/Preview Content\"";
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.Disnees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78BB1942D49026F00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disnees/Preview Content\"";
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.Disnees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B78BB1962D49026F00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.DisneesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disnees.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disnees";
+			};
+			name = Debug;
+		};
+		B78BB1972D49026F00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.DisneesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disnees.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disnees";
+			};
+			name = Release;
+		};
+		B78BB1992D49026F00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.DisneesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Disnees;
+			};
+			name = Debug;
+		};
+		B78BB19A2D49026F00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L85D626Q4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specineff.DisneesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Disnees;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78BB1692D49026E00D2A997 /* Build configuration list for PBXProject "Disnees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78BB1902D49026F00D2A997 /* Debug */,
+				B78BB1912D49026F00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78BB1922D49026F00D2A997 /* Build configuration list for PBXNativeTarget "Disnees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78BB1932D49026F00D2A997 /* Debug */,
+				B78BB1942D49026F00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78BB1952D49026F00D2A997 /* Build configuration list for PBXNativeTarget "DisneesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78BB1962D49026F00D2A997 /* Debug */,
+				B78BB1972D49026F00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78BB1982D49026F00D2A997 /* Build configuration list for PBXNativeTarget "DisneesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78BB1992D49026F00D2A997 /* Debug */,
+				B78BB19A2D49026F00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B78BB19B2D49029800D2A997 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.1;
+			};
+		};
+		B78BB1A92D490C6D00D2A997 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		B78BB1B62D49346E00D2A997 /* XCRemoteSwiftPackageReference "SwiftUI-CardStackView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dadalar/SwiftUI-CardStackView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B78BB19C2D49029800D2A997 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B78BB19B2D49029800D2A997 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		B78BB1AA2D490C6D00D2A997 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B78BB1A92D490C6D00D2A997 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B78BB1B72D49346E00D2A997 /* CardStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B78BB1B62D49346E00D2A997 /* XCRemoteSwiftPackageReference "SwiftUI-CardStackView" */;
+			productName = CardStack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B78BB1662D49026E00D2A997 /* Project object */;
+}
